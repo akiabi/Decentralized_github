@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.layoutBG {
+  height:100vh;
+  background-image: linear-gradient(to bottom, #112b4e, #183358, #1f3c63, #26446e, #2d4d79, #345684, #3a5e8f, #41679a, #4971a8, #527cb6, #5a87c4, #6392d3);
+  width:100vw;
+  padding:50px;
+}
+
+.fileLabel {
+  color:#ffffff;
+  /* float:left; */
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.fileInput {
+  background-color:transparent;
+  border:1px #fff solid;
+  color:#fafafa;
+  border-bottom:1px solid #fbfbfb; 
+}
+.table_body_scrollable {
+  padding:0px;
+  margin: 0px;
+
+}
+.content-container {
+  font-size:14px;
+  height:50vh;
+  overflow-y: scroll;
+}
+.hashHover:hover {
+  cursor: pointer;
+  color:rgb(63, 63, 199);
+  font-weight: 600;
+}
